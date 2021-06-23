@@ -1,4 +1,4 @@
-.login {
+.register {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -14,34 +14,32 @@
   box-shadow: 0 0 10px #000;
 }
 
-.loginHeader {
+.registerHeader {
   display: block;
   background: rgb(22, 22, 22);
   text-align: center;
   border-radius: 1em 1em 0 0;
   padding: 6em 1em 2em;
+  .registerTitle {
+    font-size: 30px;
+    margin: 0.5em 0;
+    color: gray;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .registerLogo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 100%;
+  }
 }
 
-.loginLogo {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(255, 255, 255, 0.1);
-  padding: 1rem;
-  border-radius: 100%;
-}
-
-.loginTitle {
-  font-size: 30px;
-  margin: 0.5em 0;
-  color: gray;
-  font-weight: bold;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-.loginBody {
+.registerBody {
   padding: 1em;
 
   button {
@@ -54,17 +52,18 @@
     padding: 1rem 1rem;
   }
   a {
-    color: #Fff;
+    color: #fff;
   }
 }
 
-.loginInput {
+.registerInput {
   display: block;
-  padding: 1.2em;
+  padding: 1.2rem;
   width: 100%;
   border-radius: 1em;
   color: gray;
   font-size: 16px;
+  
 
   input {
     background: #292929;
@@ -80,11 +79,11 @@
   }
 }
 
-.need{
-    float: right;
-    margin-right: 1.5rem;
-    
-    a{
-        color: rgb(163, 158, 158);
-    }
+.need {
+  float: right;
+  margin-right: 1.5rem;
+
+  a {
+    color: rgb(163, 158, 158);
+  }
 }
